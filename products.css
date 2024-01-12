@@ -129,3 +129,52 @@ p a:hover {
     width: 100%;
     margin: 0 auto;
 }
+
+.ev-gallery .card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .ev-gallery .card:hover {
+    transform: scale(1.1);
+  }
+
+  .ev-gallery .card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .ev-dropdown-text {
+    display: none;
+}
+
+.card:hover .ev-dropdown-text {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.card:hover #pc {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.card:hover #phone {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #dc3545;
+    color: white;
+}
+

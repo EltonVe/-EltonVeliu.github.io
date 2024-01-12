@@ -116,3 +116,25 @@ p a:hover {
     width: 100%;
     margin: 0 auto;
 }
+
+
+.ev-order-list .card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .ev-order-list .card:hover {
+    transform: scale(1.1);
+  }
+
+  .ev-order-list .card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
