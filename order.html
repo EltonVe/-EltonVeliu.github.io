@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body id="personal-website">
+    <section class="vh-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCenteredExample"
+                    aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="text-white nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="products.html">Products</a>
+                        </li>
+                        <div class="ev-dropdown">
+                            <button>Categories</button>
+                            <div class="ev-dropdown-content">
+                                <a href="new.html" target="_self">New</a>
+                                <a href="used.html" target="_self">Used</a>
+                                <a href="order.html" target="_self">Order</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <main class="ev-order-list">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+                <div class="col">
+                    <a href="cart.html">
+                        <div class="card text-bg-dark ratio ratio-1x1">
+                            <img src="./photos/ps4.jpg" class="card-img" alt="..." />
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Playstation 4</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="cart.html">
+                        <div class="card text-bg-dark ratio ratio-1x1">
+                            <img src="./photos/ps5.jpg" class="card-img" alt="..." />
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Playstation 5</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="cart.html">
+                        <div class="card text-bg-dark ratio ratio-1x1">
+                            <img src="./photos/xbox1.jpg" class="card-img" alt="..." />
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">Xbox One S</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+   </section>
+
+    <footer>
+        <p><a href="index.html">&copy; 2024 Online Storehouse. All rights reserved.</a></p>
+    </footer>
+
+    <script src="home.js" defer></script>
+</body>
+</html>

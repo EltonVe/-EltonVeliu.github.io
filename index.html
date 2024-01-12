@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body id="personal-website">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="text-white nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="products.html">Products</a>
+                        </li>
+                        <div class="ev-dropdown">
+                            <button>Categories</button>
+                            <div class="ev-dropdown-content">
+                                <a href="new.html" target="_self">New</a>
+                                <a href="used.html" target="_self">Used</a>
+                                <a href="order.html" target="_self">Order</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Online Storehouse</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="ev-main">
+        <section class="vh-85">
+            <div class="container-fluid h-custom">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                            class="img-fluid" alt="Sample image">
+                    </div>
+                    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                        <form>
+                            <div
+                                class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                                <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                                <a href="https://www.facebook.com/"><button type="button"
+                                        class="btn btn-primary btn-floating mx-1">F</button></a>
+                                <i class="fab fa-facebook-f"></i>
+
+                                </button>
+
+                                <a href="https://twitter.com/i/flow/login"><button type="button"
+                                        class="btn btn-dark btn-floating mx-1">X</button></a>
+                                <i class="fab fa-twitter"></i>
+                                </button>
+               
+                            </div>
+
+                            <div class="divider d-flex align-items-center my-4">
+                                <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                            </div>
+                          
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                    placeholder="Enter a valid email address" />
+                                <label class="form-label" for="form3Example3">Email address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-3">
+                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                    placeholder="Enter password" required/>
+                                <label class="form-label" for="form3Example4">Password</label>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-0">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                                    <label class="form-check-label" for="form2Example3">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="" class="text-body text-decoration-none">Forgot password?</a>
+                            </div>
+
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                               <a href="products.html"button" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button></a>
+                                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a  href="register.html" target="_blank"
+                                         class="link-danger text-decoration-none">Register</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <!-- Footer -->
+    <footer>
+        <p><a href="#">&copy; 2024 Online Storehouse. All rights reserved.</a></p>
+    </footer>
+
+    <script src="home.js" defer></script>
+</body>
+</html>
