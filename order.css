@@ -81,10 +81,10 @@ main {
     display: block;
 }
 
-footer {
+.ev-footer {
     background-color: #333;
-    padding: 10px;
-    position: sticky;
+    padding: 10px 0;
+    position: absolute;
     width: 100%;
     text-align: center;
 }
