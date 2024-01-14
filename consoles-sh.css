@@ -103,6 +103,7 @@ nav a:hover {
 }
 
 .ev-ps {
+    display: inline-block;
     list-style-type: none;
     margin-bottom: 20px;
     padding-right: 40px;
@@ -117,13 +118,15 @@ nav a:hover {
 
 }
 
+
 .ev-list {
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .ev-ul-bg {
     background-color: rgba(0, 0, 0, 0);
     padding: 5px;
+    list-style-type: none;
 }
 
 .ev-list .ev-ps a:hover {
@@ -220,5 +223,56 @@ h3 {
 @media only screen and (max-width: 767px) {
     img {
         width: 110%;
+    }
+}
+
+
+
+/* Responsive styles for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    #para, #dyta, #treta fieldset {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #para p, #dyta p, #treta p {
+        margin-left: 0;
+    }
+
+    #para img, #dyta img, #treta img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-width: 120px;
+        
+    }
+}
+
+/* Responsive styles for small devices */
+@media (max-width: 767px) {
+    #para, #dyta, #treta fieldset { 
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #para p, #dyta p, #treta p {
+        margin-left: 0;
+    }
+
+    #para img, #dyta img, #treta img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-width: 100px; /* Adjust the minimum width as needed */
+    }
+}
+
+
+@media (min-width: 376px) and (max-width:1024px) {
+    #para .container,
+    #dyta .container,
+    #treta .container {
+        margin-left: 30px;
+        padding-right: 15px;
     }
 }

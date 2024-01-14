@@ -6,4 +6,4 @@ document.addEventListener('DOMContentLoaded', function () {
        navbarCollapse.classList.toggle('show');
     }); });
 
-    
+
