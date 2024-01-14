@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var allowRedirect = false; 
 
     function attemptLogin(event) {
-    
+        
         var email = document.getElementById('form3Example3').value;
         var password = document.getElementById('form3Example4').value;
-    
+        
         // Check if both email and password are provided
         if (email.trim() !== '') {
             // Check if the password is at least 8 characters long
@@ -33,6 +33,3 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = 'products.html'; 
         }
     }
-    
-   
-      
