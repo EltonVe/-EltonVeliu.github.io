@@ -167,11 +167,11 @@ html {
 }
 
 
+
 #para,
 #dyta,
 #treta {
     margin-top: 10px !important;
-    /* Adjust the value as needed */
     margin-left: -30px;
 }
 
@@ -205,8 +205,6 @@ h3 {
     word-wrap: break-word;
 }
 
-
-
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 750px;
@@ -227,7 +225,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
     img {
-        width: 110%;
+        width: 120%;
     }
 }
 
@@ -245,8 +243,8 @@ h3 {
     }
 
     #para img, #dyta img, #treta img {
-        width: 100%;
-        max-width: 100%;
+        width: 130%;
+        max-width: 110%;
         height: auto;
         min-width: 120px;
         
