@@ -3,7 +3,7 @@
     line-height: 1.6;
     background-image: url(./photos/home-bg.jpg);
     min-height: 100vh;
-
+    
 }
 
 #personal-website::before {
@@ -17,8 +17,12 @@
     z-index: -1;
 }
 
+.ev-main {
+    margin-left: 10px;
+}
 nav {
     background-color: #333;
+    
 }
 
 nav ul {
@@ -93,4 +97,39 @@ nav a:hover {
 .ev-footer-hover a:hover {
     color: #dc3545;
     cursor: context-menu;
+}
+
+
+
+.ev-header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ev-type {
+    font-family:Georgia, Times, 'Times New Roman';
+}
+
+.ev-type:hover{
+    scale: 1;
+    background-color: rgba(38, 119, 168, 1);
+    color: white;
+
+}
+
+.table  tr:hover {
+    background: rgb(38,119,168);
+background: linear-gradient(180deg, rgba(38,119,168,0.7036064425770308) 0%, rgba(0,0,0,0.48792016806722693) 74%);
+    cursor: pointer;
+}
+
+tbody:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+td:hover {
+    color: white;
 }
